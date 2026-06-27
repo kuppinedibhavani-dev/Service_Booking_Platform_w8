@@ -10,7 +10,9 @@ const paymentRoutes = require("./routes/paymentRoutes");
 
 const app = express();
 connectDB();
-app.use(cors());
+app.use(cors(
+ " https://service-booking-platform-w8.vercel.app/"
+));
 app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/services", serviceRoutes);

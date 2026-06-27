@@ -59,20 +59,6 @@ npm install
 npm start
 ```
 
-## Environment Variables
-
-Create `.env` file:
-
-PORT=5000
-MONGO_URI=mongodb+srv://kuppinedibhavani_db_user:Venki5158@cluster0.d5zc4zt.mongodb.net/?appName=Cluster0
-JWT_SECRET=bhavani123
-RAZORPAY_KEY_ID=rzp_test_T6ayDvdZzNmKXH
-RAZORPAY_KEY_SECRET=XRQoBjXs8FxKGvxfX3ETbDfz
-EMAIL_USER=kuppinedibhavani@gmail.com
-EMAIL_PASS=dmvfayztidcmazhi
-TWILIO_ACCOUNT_SID=AC4332337aad75f899751b32c075596a16
-TWILIO_AUTH_TOKEN=0c22544169251e5719cdaeb0106ab25c
-TWILIO_PHONE_NUMBER=+12568843675
 
 
 ## Future Improvements
